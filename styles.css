@@ -1,0 +1,210 @@
+/* body */ 
+#container {
+    width: 100%;
+    margin: 50 atuo 0 auto;
+    text-align: center;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(153,33, 0, 0.7), rgba(153,33, 0, 0.7)), url(https://images.unsplash.com/photo-1635378709011-93612597aec1?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNTk5MzI4Nw&ixlib=rb-1.2.1&q=85);
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  @media screen (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  .container::before {
+    box-sizing: border-box;
+  }
+  
+  .container::after {
+    box-sizing: border-box;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: white;
+    margin: 0;
+  }
+  
+  body::before {
+    box-sizing: border-box;
+  }
+  
+  body::after {
+    box-sizing: border-box;
+  }
+  
+  
+  /* title */
+  #header {  
+    padding: 0 .625rem;
+    margin-bottom: 1.875rem;
+    color: white;
+  }
+  
+  #header::before {
+    box-sizing: border-box;
+  }
+  
+  #header::after {
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: block;
+  } 
+  
+  #text-center {
+    text-align: center;
+  }
+  
+  p, h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  h1 {
+    font-weight: 400px;
+    line-height: 1.2;
+  }
+  
+  #description {
+    font-style: italic;
+    font-weight: 200px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%) 
+  }
+  
+  
+  /* survey */
+  
+  @media screen (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  }
+  
+  form {
+    padding: 2.5rem .625rem;
+    border-radius: .25rem;
+    }
+  
+  form::before {
+    box-sizing: border-box;
+  }
+  
+  form::after {
+    box-sizing: border-box;
+  
+  }
+  
+  form {
+    display: block;
+    margin-top: 0em;
+  }
+  
+  #questions {
+    margin: 0 auto 1.25rem auto;
+    padding: .25rem;
+    
+  }
+  
+  #questions::before {
+    box-sizing: border-box;
+  }
+  
+  #questions::after {
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    cursor: default;
+  }
+  
+  label::before {
+    box-sizing: border-box;
+  }
+  
+  label::after {
+    box-sizing: border-box;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+  }
+  
+  option::before {
+    box-sizing: border-box;
+  }
+  
+  option::after {
+    box-sizing: border-box;
+  }
+  
+  option:disabled {
+    color: -internal-light-dark(graytext, rgb(170, 170, 170)):
+  }
+  
+  
+  
+  #improve-question {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0em 1em 1em;  
+  }
+  
+  #comment-area {
+    min-height: 120px;
+    width: 75%;
+    padding: 12px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: .75rem;
+    background: brown;
+    font-size: 20px;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+  }
+  
+  input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  input, button, select, textarea::before {
+    box-sizing: border-box;
+  }
+  
+  input, button, select, textarea::before {
+    box-sizing: border-box;
+  }
